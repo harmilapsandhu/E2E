@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53277" started-at="2020-07-02T12:20:48 EDT" finished-at="2020-07-02T12:21:41 EDT">
+    <groups>
+    </groups>
+    <test name="Validating Title" duration-ms="15991" started-at="2020-07-02T12:20:48 EDT" finished-at="2020-07-02T12:21:04 EDT">
+      <class name="Dance.ValidateTest">
+        <test-method status="PASS" signature="init2()[pri:0, instance:Dance.ValidateTest@2fb3536e]" name="init2" is-config="true" duration-ms="10893" started-at="2020-07-02T12:20:48 EDT" finished-at="2020-07-02T12:20:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init2 -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Dance.ValidateTest@2fb3536e]" name="basePageNavigation" duration-ms="387" started-at="2020-07-02T12:20:59 EDT" finished-at="2020-07-02T12:20:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="outit2()[pri:0, instance:Dance.ValidateTest@2fb3536e]" name="outit2" is-config="true" duration-ms="4689" started-at="2020-07-02T12:20:59 EDT" finished-at="2020-07-02T12:21:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outit2 -->
+      </class> <!-- Dance.ValidateTest -->
+    </test> <!-- Validating Title -->
+    <test name="Testing User LogIn" duration-ms="53277" started-at="2020-07-02T12:20:48 EDT" finished-at="2020-07-02T12:21:41 EDT">
+      <class name="Dance.HomePage">
+        <test-method status="PASS" signature="Forgot()[pri:0, instance:Dance.HomePage@614ca7df]" name="Forgot" duration-ms="20385" started-at="2020-07-02T12:20:48 EDT" finished-at="2020-07-02T12:21:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgot -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Dance.HomePage@614ca7df]" name="basePageNavigation" duration-ms="14697" started-at="2020-07-02T12:21:09 EDT" data-provider="getData" finished-at="2020-07-02T12:21:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[non-restrictedUser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MyPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Value 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Dance.HomePage@614ca7df]" name="basePageNavigation" duration-ms="16738" started-at="2020-07-02T12:21:23 EDT" data-provider="getData" finished-at="2020-07-02T12:21:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricetedUser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YourPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Value 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Dance.HomePage@614ca7df]" name="tearDown" is-config="true" duration-ms="1377" started-at="2020-07-02T12:21:40 EDT" finished-at="2020-07-02T12:21:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Dance.HomePage -->
+    </test> <!-- Testing User LogIn -->
+  </suite> <!-- Suite -->
+</testng-results>

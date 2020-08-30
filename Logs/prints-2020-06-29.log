@@ -1,0 +1,9 @@
+11:21:04.924 [main] INFO  resources.Base - Value 1
+11:21:19.185 [main] INFO  resources.Base - Value 2
+12:47:41.535 [main] INFO  resources.Base - Driver is Initialized
+12:47:45.537 [main] INFO  resources.Base - Navigated to Home Page
+12:48:04.119 [main] INFO  resources.Base - Value 1
+12:48:19.129 [main] INFO  resources.Base - Value 2
+12:48:52.473 [TestNG-tests-2] INFO  resources.Base - Driver is Initialized
+12:48:57.191 [TestNG-tests-2] INFO  resources.Base - Navigated to Home Page
+12:49:02.266 [TestNG-tests-3] INFO  resources.Base - Value 1

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="Dance.Listeners"></listener>
+</listeners>
+  <test name="AppTest">
+    <classes>
+      <class name="Dance.AppTest"/>
+      </classes>
+  </test>
+  
+    <test name="Validating Title">
+       <classes>
+         <class name="Dance.ValidateTest"/>
+       </classes> 
+    </test>
+     
+      <test name="Testing User LogIn">
+       <classes>
+        <class name="Dance.HomePage"/>
+       </classes>
+      </test>      
+     
+</suite> <!-- Suite -->

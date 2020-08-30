@@ -1,0 +1,7 @@
+14:32:05.266 [TestNG-tests-3] INFO  resources.Base - Value 2
+12:31:15.290 [TestNG-tests-2] INFO  resources.Base - Driver is Initialized
+12:31:22.101 [TestNG-tests-2] INFO  resources.Base - Navigated to Home Page
+12:31:22.540 [TestNG-tests-2] INFO  resources.Base - Successfully validated 'Featured Courses' text
+12:31:22.833 [TestNG-tests-2] INFO  resources.Base - Successfully displaying Mentorship tab
+12:31:39.996 [TestNG-tests-3] INFO  resources.Base - Value 1
+12:31:53.855 [TestNG-tests-3] INFO  resources.Base - Value 2

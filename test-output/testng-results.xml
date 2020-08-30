@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45368" started-at="2020-07-22T12:31:10 EDT" finished-at="2020-07-22T12:31:55 EDT">
+    <groups>
+    </groups>
+    <test name="AppTest" duration-ms="13" started-at="2020-07-22T12:31:10 EDT" finished-at="2020-07-22T12:31:10 EDT">
+    </test> <!-- AppTest -->
+    <test name="Validating Title" duration-ms="17715" started-at="2020-07-22T12:31:10 EDT" finished-at="2020-07-22T12:31:27 EDT">
+      <class name="Dance.ValidateTest">
+        <test-method status="PASS" signature="init2()[pri:0, instance:Dance.ValidateTest@5e600dd5]" name="init2" is-config="true" duration-ms="12087" started-at="2020-07-22T12:31:10 EDT" finished-at="2020-07-22T12:31:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init2 -->
+        <test-method status="PASS" signature="HeaderValidate()[pri:0, instance:Dance.ValidateTest@5e600dd5]" name="HeaderValidate" duration-ms="366" started-at="2020-07-22T12:31:22 EDT" finished-at="2020-07-22T12:31:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderValidate -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Dance.ValidateTest@5e600dd5]" name="basePageNavigation" duration-ms="356" started-at="2020-07-22T12:31:22 EDT" finished-at="2020-07-22T12:31:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="outit2()[pri:0, instance:Dance.ValidateTest@5e600dd5]" name="outit2" is-config="true" duration-ms="4884" started-at="2020-07-22T12:31:22 EDT" finished-at="2020-07-22T12:31:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outit2 -->
+      </class> <!-- Dance.ValidateTest -->
+    </test> <!-- Validating Title -->
+    <test name="Testing User LogIn" duration-ms="45367" started-at="2020-07-22T12:31:10 EDT" finished-at="2020-07-22T12:31:55 EDT">
+      <class name="Dance.HomePage">
+        <test-method status="FAIL" signature="Forgot()[pri:0, instance:Dance.HomePage@18df8434]" name="Forgot" duration-ms="13290" started-at="2020-07-22T12:31:10 EDT" finished-at="2020-07-22T12:31:23 EDT">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a _ngcontent-sqx-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (942, 27). Other element would receive the click: <div _ngcontent-sqx-c18="" class="preloader" style="opacity: 0.999961;">...</div>
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.12.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Harmilap\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 64c3d8da40188d6e4e0bb71bc0801e7f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-sqx-c18="" href="https://courses.rahulshettyacademy.com/sign_in" class="theme-btn register-btn">...</a> is not clickable at point (942, 27). Other element would receive the click: <div _ngcontent-sqx-c18="" class="preloader" style="opacity: 0.999961;">...</div>
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.12.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Harmilap\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 64c3d8da40188d6e4e0bb71bc0801e7f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at pageObjects.LandingPage.getLogIn(LandingPage.java:25)
+at Dance.HomePage.Forgot(HomePage.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgot -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Dance.HomePage@18df8434]" name="basePageNavigation" duration-ms="16112" started-at="2020-07-22T12:31:24 EDT" data-provider="getData" finished-at="2020-07-22T12:31:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[non-restrictedUser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MyPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Value 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Dance.HomePage@18df8434]" name="basePageNavigation" duration-ms="13996" started-at="2020-07-22T12:31:40 EDT" data-provider="getData" finished-at="2020-07-22T12:31:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricetedUser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YourPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Value 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Dance.HomePage@18df8434]" name="tearDown" is-config="true" duration-ms="875" started-at="2020-07-22T12:31:54 EDT" finished-at="2020-07-22T12:31:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Dance.HomePage -->
+    </test> <!-- Testing User LogIn -->
+  </suite> <!-- Suite -->
+</testng-results>
